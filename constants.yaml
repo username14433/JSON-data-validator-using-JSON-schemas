@@ -1,0 +1,15 @@
+#Поменять путь до папки со схемами на свой
+#Не забудьте продублировать обратные слеши, если в вашем пути есть кириллица
+MAIN_SCHEMAS_FOLDER_PATH: "C:\\Users\\Владимир\\Desktop\\Готовая_практика\\AeroN_schemas_only"
+TABLE_SCHEMA_DICT:
+  messages.structure_schema: "messaging.messages.structure"
+  messages.receiver_address_schema: "messaging.messages.receiver_address"
+  messages.sender_address_schema: "messaging.messages.sender_address"
+  messages.errors_schema: "messaging.messages.errors"
+  datasources.parameters_schema: "settings.datasources.parameters"
+  distributions.parameters_schema: "settings.distributions.parameters"
+  lookups.items_schema: "settings.lookups.items"
+  models.model_schema: "settings.models.model"
+  templates.template_schema: "settings.templates.template"
+  users.parameters_schema: "settings.users.parameters"
+  values.settings_schema: "settings.values.settings"
